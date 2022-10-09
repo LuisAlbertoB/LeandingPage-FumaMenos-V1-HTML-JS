@@ -1,0 +1,156 @@
+html{
+    background-color: rgb(221, 171, 115);
+}
+
+body{
+    height: 2000px;
+    width: 1000px;
+    background-color: rgba(255, 255, 255, 0.973);
+    margin: auto;
+}
+
+header{
+    height: 80px;
+    width: 1000px;
+    background-color: rgb(221, 171, 115);
+}
+
+#imagen{
+    height: 80px;
+    width: 1000x;
+    background-color: rgb(221, 171, 115);
+    float: left;
+}
+
+#caja1{
+    height: 500px;
+    width: 1000px;
+}
+
+#titulo{
+    height: 500px;
+    width: 500px;
+   float: right;
+}
+
+h1{
+    text-align: center;
+    font-family: fantasy;
+    font-size: 50px;
+}
+
+h2{
+    text-align: center;
+    font-size: 25px;
+}
+
+#imagen2{
+    align-items: center;
+    height: 300px;
+    width: 300px;
+}
+
+#HeroShot{
+    height: 500px;
+    width: 500px;
+    float: left;
+}
+
+#caja2{
+    height: 500px;
+    width: 1000px;
+}
+
+#caracteristicas{
+    height: 500px;
+    width: 500px;
+    /*background-color: aqua;*/
+    float: right;
+}
+
+#beneficios{
+    height: 500px;
+    width: 500px;
+    /*background-color: rgb(255, 8, 0);*/
+    float: left;
+}
+
+li{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    padding: 25px;
+}
+p{
+    text-align: justify;
+    padding: 15px;
+}
+
+#caja3{
+    height: 500px;
+    width: 1000px;
+    /*background-color: brown;*/
+}
+
+#tFormulario{
+    text-align: center;
+    height: 500px;
+    width: 700px;
+    float: right;
+    /*background-color: rgb(228, 230, 118);*/
+}
+
+#txtFormulario{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    align-items: center;
+}
+
+#formulario{
+    float: left;
+    /*background-color: brown;*/
+    width: 300px;
+    height: 500px;
+}
+
+table{
+    text-align: center;
+}
+
+#caja4{
+    width: 1000px;
+    height: 300px;
+    align-items: center;
+    /*background-color: brown;*/
+}
+.caja4{
+    
+    align-items: center;
+}
+
+#joel{
+    align-items: center;
+    width: 333px;
+    height: 300px;
+    float: left;
+}
+
+#alberto{
+    width: 300px;
+    height: 300px;
+    /*background-color: antiquewhite;*/
+    float: right;
+}
+
+#noe{
+    width: 1;
+    height: 1;
+    /*background-color: rgb(57, 148, 77);*/
+}
+
+#caja5{
+    width: 1000px;
+    height: 100px;
+    /*background-color: aqua;*/
+    text-align: center;
+}

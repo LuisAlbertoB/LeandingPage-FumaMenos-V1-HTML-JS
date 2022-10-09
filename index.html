@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fuma Menos</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="contenedor">
+        
+        <div id="cajaDeLogo">
+            <header>
+                <section id="imagen"><img src="./ezgif.com-gif-maker (1).png" height="70" width="70"></section>  
+            </header>
+        </div>
+
+        <div id="caja1">
+            <section id="titulo">
+                <h1>Fuma Menos</h1>
+                <h2>La aplicacion para dejar el tabaquismo está aqui.</h2>
+                <center><img src="./dibujo.png" id="imagen2"></center>
+            </section>
+            <section id="HeroShot">
+                <img src="./pulmonepaers.jpg" width="500px" height="500px">
+            </section>
+        </div>
+
+        <div id="caja2">
+            <section id="caracteristicas">
+                <h2>Caracteristicas</h2>
+                <p>La aplicación le ayudara a tratar su problema del tabaquismo, también tendrá la oportunidad de observar sus progresos mediante un opción de historial de consumo.</p>
+                <p>La aplicación le dará la satisfacción de moderar su consumo, entre más la use, obtendrá mejores resultados al día.</p>
+                <p>Tendrá una mejor mentalidad contra el vicio del tabaco y mostrará una mejoría en su salud gracias al control de consumo.</p>
+                <p>Tendrá una mejor vida gracias a que sus problemas disminuirán durante el uso de nuestra aplicación.</p>
+                <center><img src="./no-fumar.png" width="50" height="50"></center>
+            </section>
+
+            <section id="beneficios">
+                <h2>Beneficios</h2>
+                <li>Llevará un control sobre su consumo de tabaco.</li>
+                <li>Le ayudará a moderar el consumo de tabaco.</li>
+                <li>Mejorará su salud física y psicológica.</li>
+                <li>Tendrá una mejor calidad de vida.</li>
+                <center><img src="./dejar-de-fumar.png" width="50" height="50"></center>
+            </section>
+        </div>
+
+        <div id="caja3">
+            <section id="formulario">
+                <table>
+                    <tr>
+                        <td><label>Nombre(s)</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="nombre"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Apellido paterno</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="apellidoP"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Apellido materno</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="apellidoM"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Fecha de nacimiento</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="date" id="fechaN"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Contacto</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="contacto"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Genero</label></td>
+                    </tr>
+                    <tr>
+                        <td><select name="genero" id="genero"><option value='M'>Masuculino</option><option value='F'>Femenino</option><option value='O'>Otros</option></select></td>
+                    </tr>
+                    <tr>
+                        <td><label>Nacionalidad</label></td>
+                    </tr>
+                    <tr>
+                        <td><select name="nacionalidad" id="nacionalidad"><option value="mexicana">Mexicana</option><option value="española">Española</option></select></td>
+                    </tr>
+                    <tr>
+                        <td><label>Meses como fumador</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" id="meses"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Cantidad aproximada de cigarrillos diarios</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" id="cantidad"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Comenzar" onclick="comenzar()"></td>
+                    </tr>
+                </table>
+            </section>
+            <section id="tFormulario">
+                <label id="txtFormulario">Rellene el formulario para comenzar</label>
+                <br><br><br>
+                <img src="./stop-cigarrillos850x367.jpg" width="700" height="400" id="imagenStop">
+            </section>
+        </div>
+
+        <div id="caja4" class="caja4">
+            
+            <section id="joel">
+                <center><img src="./Jole.jpg" width="200px" height="200px" id="imgJoel"></center>
+                <center><p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 221204 Joel de Jesús López Ruiz</p></center>
+                <center><input type="submit" value="Ver contacto" onclick="getInfoJoel(callback)"></center>
+                
+            </section>
+
+            <section id="alberto">
+                <center><img src="./alberto.jpg" width="200px" height="200px" id="imgAlberto">
+                <p> 221189 Luis Alberto Batalla González</p></center>
+                <center><input type="submit" value="Ver contacto" onclick="getInfoBatalla(callback1)"></center>
+            </section>
+
+            <section id="noe">
+                <center><img src="./noe.jpg" width="200px" height="200px" id="imgNoe"></center>
+                <center><p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 221219 Noé Alejandro Rodríguez Moto</p></center>
+                <center><input type="submit" value="Ver contacto" onclick="getInfoNoe(callback2)"></center>
+
+            </section>
+            
+        </div>
+
+        <div id="caja5">
+
+        </div>
+    
+    </div>    
+    <script src="./main.js"></script>
+</body>
+</html>
